@@ -12,13 +12,13 @@ export default function PageHome({ links, handlePage, handleQr }) {
     },
     {
       title: "Linkedin",
-      value: `https://linkedin.com/${linkedin}`,
+      value: `https://www.linkedin.com/in/${linkedin}`,
       color: "#126BC4",
       active: linkedin,
     },
     {
       title: "Website",
-      value: `https://${website}`,
+      value: `https://www.${website}`,
       color: "black",
       active: website,
     },
