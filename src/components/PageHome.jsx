@@ -1,7 +1,7 @@
 import RowLink from "./RowLink";
 
 export default function PageHome({ links, handlePage, handleQr }) {
-  const { whatsapp, linkedin, website } = links;
+  const { whatsapp, linkedin, website, github } = links;
 
   const listado = [
     {
@@ -21,6 +21,12 @@ export default function PageHome({ links, handlePage, handleQr }) {
       value: `https://www.${website}`,
       color: "black",
       active: website,
+    },
+    {
+      title: "Github",
+      value: `https://https://github.com/${github}`,
+      color: "black",
+      active: github,
     },
   ];
   console.log(listado);

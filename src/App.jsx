@@ -9,7 +9,7 @@ import Nav from "./components/Nav";
 
 function App() {
   const [page, setPage] = useState("home");
-  const [links, setLinks] = useState({ whatsapp: "", linkedin: "", website: "" });
+  const [links, setLinks] = useState({ whatsapp: "", linkedin: "", website: "",github:"" });
   const [qr, setQr] = useState({title:"",value:"", color: ""})
 
   const handlePage = (page)=>{

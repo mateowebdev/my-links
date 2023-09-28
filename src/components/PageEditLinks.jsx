@@ -32,6 +32,16 @@ export default function PageEditLinks({handleInput, links}) {
             name="website"
           />
         </div>
+        <div className="flex flex-col">
+          <label>Github</label>
+          <input
+            className="border border-gray-400 rounded-lg p-1 px-2"
+            type="text"
+            onChange={(e) => handleInput(e)}
+            value={links.github}
+            name="github"
+          />
+        </div>
     </div>
   )
 }
