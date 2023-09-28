@@ -37,6 +37,7 @@ export default function PageHome({ links, handlePage, handleQr }) {
 
   return (
     <div className="p-4 flex flex-col gap-4">
+        {listado.filter(item => item.active!= "").length == 0 && <p>No links yet</p>}
       {listado.map((item) =>
         item.active !== "" ? (
           <RowLink

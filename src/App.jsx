@@ -49,7 +49,7 @@ function App() {
   
 
   return (
-    <main className="min-h-screen flex flex-col justify-between">
+    <main className="bg-white min-h-screen flex flex-col">
       <Header/>
       {page == "edit" && <PageEditLinks handlePage={handlePage} links={links} handleInput={handleInput}/>}
       {page == "home" && <PageHome links={links} handlePage={handlePage} handleQr={handleQr}/>}
